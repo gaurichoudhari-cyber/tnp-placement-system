@@ -1,3 +1,7 @@
-test("basic math test", () => {
-    expect(2 + 2).toBe(4);
-});
+if (2 + 2 === 4) {
+    console.log("Test Passed ");
+    process.exit(0);
+} else {
+    console.log("Test Failed ");
+    process.exit(1);
+}

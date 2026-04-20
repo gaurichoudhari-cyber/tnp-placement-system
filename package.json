@@ -4,17 +4,14 @@
   "description": "",
   "main": "app.js",
   "scripts": {
-  "start": "node app.js",
-  "test": "node node_modules/jest/bin/jest.js"
-},
+    "start": "node app.js",
+    "test": "node tests/app.test.js"
+  },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "type": "commonjs",
   "dependencies": {
     "express": "^5.2.1"
-  },
-  "devDependencies": {
-    "jest": "^30.3.0"
   }
 }
